@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="basketball.jpeg">
+    <title>Gaming Scoreboard - BasketBall</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/regisha" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text"></h1>
+        <div class="scoreboard">
+
+            <div class="scoreboard-container">
+                <h2 class="text">HOME</h2>
+
+                <div class="firstbox">
+                    <p class="score" id="home-score">0</p>
+                </div>
+
+                <div class="secondbox">
+                    <button id="plus-one" onclick="homePlusOnePoint()">+1</button>
+                    <button id="plus-two" onclick="homePlusTwoPoints()">+2</button>
+                    <button id="plus-three" onclick="homePlusThreePoints()">+3</button>
+                </div>
+            </div>
+
+            <div class="team-container">
+                <h2 class="text">GUEST</h2>
+
+                <div class="firstbox">
+                    <p class="score" id="score-pts">0</p>
+                </div>
+
+                <div class="secondbox">
+                    <button id="plus-one" onclick="guestPlusOnePoint()">+1</button>
+                    <button id="plus-two" onclick="guestPlusTwoPoints()">+2</button>
+                    <button id="plus-three" onclick="guestPlusThreePoints()">+3</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer">Made with HTML, CSS and JavaScript by <a href="https://github.com/MerlynMShelley">Merlyn Shelley</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
